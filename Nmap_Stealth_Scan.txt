@@ -1,0 +1,61 @@
+>ifconfig 
+
+>nmap -sS 192.20.10.0/24
+
+----------------------------------------------------------------------                                             
+Starting Nmap 7.95 ( https://nmap.org ) at 2025-12-11 09:19 EST
+Nmap scan report for 192.20.10.1 
+Host is up (0.0039s latency).
+Not shown: 996 closed tcp ports (reset)
+PORT      STATE SERVICE
+21/tcp    open  ftp
+53/tcp    open  domain
+49152/tcp open  unknown
+62078/tcp open  redmi-sync 
+MAC Address: FA:41:18:52:94:64 (Unknown)
+
+Nmap scan report for 192.20.10.2 
+Host is up (0.0088s latency).
+Not shown: 977 closed tcp ports (reset)
+PORT     STATE SERVICE
+21/tcp   open  ftp
+22/tcp   open  ssh
+23/tcp   open  telnet
+25/tcp   open  smtp
+53/tcp   open  domain
+80/tcp   open  http
+111/tcp  open  rpcbind
+139/tcp  open  netbios-ssn
+445/tcp  open  microsoft-ds
+512/tcp  open  exec
+513/tcp  open  login
+514/tcp  open  shell
+1099/tcp open  rmiregistry
+1524/tcp open  ingreslock
+2049/tcp open  nfs
+2121/tcp open  ccproxy-ftp
+3306/tcp open  mysql
+5432/tcp open  postgresql
+5900/tcp open  vnc
+6000/tcp open  X11
+6667/tcp open  irc
+8009/tcp open  ajp13
+8180/tcp open  unknown
+MAC Address: 08:01:17:EC:85:80 (PCS Systemtechnik/Oracle VirtualBox virtual NIC) 
+
+Nmap scan report for 192.20.10.5
+Host is up (0.00055s latency).
+Not shown: 996 filtered tcp ports (no-response)
+PORT     STATE SERVICE
+135/tcp  open  msrpc
+139/tcp  open  netbios-ssn
+445/tcp  open  microsoft-ds
+3306/tcp open  mysql
+MAC Address: 84:1B:17:26:4D:83 (Intel Corporate) 
+
+Nmap scan report for 192.20.10.11
+Host is up (0.0000050s latency).
+All 1000 scanned ports on 192.20.10.11 are in ignored states. 
+Not shown: 1000 closed tcp ports (reset)
+
+Nmap done: 256 IP addresses (4 hosts up) scanned in 202.02 seconds
