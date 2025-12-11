@@ -117,7 +117,7 @@ All scanned ports were closed.
 - Several hosts expose unnecessary or insecure services.  
 - Clear-text protocols (FTP, Telnet, r-services) are high-risk.  
 - SMB, VNC, and databases should be restricted to trusted systems.  
-- Host **192.20.10.2** resembles a vulnerable lab VM and should be isolated if not intentional.
+- Host **192.20.10.2** is a vulnerable lab VM metasploit2.
 
 ---
 
